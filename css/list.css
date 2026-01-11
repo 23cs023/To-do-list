@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #667eea;
+}
+
+.box {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 {
+    color:black;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #0f1a33;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f2f5f;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color:burlywood;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.delete-icon {
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+.delete-icon svg:hover {
+    color: darkred;
+}
+
+
